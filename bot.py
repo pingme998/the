@@ -10,7 +10,7 @@ updater=Updater("1669913040:AAHZ6Wl5SiWiUuyA8QvlJ55oadXZeYmRGQ0",use_context=Tru
 dispatcher=updater.dispatcher 
 
 def start_function(update:Update,context:CallbackContext):
-    #os.system('rclone serve http CLOUDNAME:')
+    os.system(' h ')
     bot.send_message(
 
         chat_id=update.effective_chat.id, 
