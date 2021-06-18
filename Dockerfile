@@ -1,6 +1,6 @@
 FROM python:3
 
-pip install telegram-bot
+pip install python-telegram-bot
 COPY bot.py /bot.py
 
 CMD [ "python","/bot.py" ]
